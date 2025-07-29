@@ -55,3 +55,11 @@ Move into that folder Create a file called `lambda_function.py` and paste in the
 Download this file (https://files.pythonhosted.org/packages/f3/3b/d7bb231b3bc1414252e77463dc63554c1aeccffe0798524467aca7bad089/Pillow-9.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl) into that folder run unzip `Pillow-9.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl` and then `rm Pillow-9.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl`
 These are the Pillow module files ... required for image manipulation in Python 3.9 (which is what the lambda function will be using)
 From the same folder, run `zip -r ../my-deployment-package.zip .` which will create a lambda function zip, containing all these files in the parent directory.
+
+# Stage 4 - Creating the Lambda Function
+For Function name entered `pixelator`
+For Runtime select `Python 3.9`
+For Architecture selected `x86_64`
+For `Permissions` expand `Change default execution` role pick `Use an existing role` and in the `Existing role` dropdown, pick `PixelatorRole`
+Close down any `notifcation` dialogues/popups
+Then upload the `.zip file` which we made in stage 3 from your local machine.
