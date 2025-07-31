@@ -58,8 +58,13 @@ From the same folder, run `zip -r ../my-deployment-package.zip .` which will cre
 
 # Stage 4 - Creating the Lambda Function
 For Function name entered `pixelator`
+
 For Runtime select `Python 3.9`
+
 For Architecture selected `x86_64`
+
 For `Permissions` expand `Change default execution` role pick `Use an existing role` and in the `Existing role` dropdown, pick `PixelatorRole`
+
 Close down any `notifcation` dialogues/popups
+
 Then upload the `.zip file` which we made in stage 3 from your local machine.
