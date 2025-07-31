@@ -6,7 +6,6 @@ Click Create Bucket and create a another bucket in the format of unique-name-pro
 These names will need to be unique, but as an example
 
 Bucket 1 : dontusethisname-source
-
 Bucket 2 : dontusethisname-processed
 
 # Stage 2 - Creating the Lambda Role
