@@ -97,6 +97,5 @@ Make sure you have two tabs open to the `S3` console. In one tab, open your `-so
 
 In the `-source` bucket tab, make sure to select the `Objects` tab and click `Upload`. Add some files and click `Upload`
 
-
-https://github.com/user-attachments/assets/e931ff68-d895-44b3-8933-87fb666543d8
+https://github.com/user-attachments/assets/2eab37fc-dcba-4365-84b7-d571344fb973
 
