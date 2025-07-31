@@ -85,5 +85,14 @@ Under `Key` put `processed_bucket` and for `Value` put the bucket name of your p
 Adding Trigger 
 
 Click `Add trigger`
-In the dropdown pick `S3`
-Under `Bucket` pick your source bucket. Only pick your SOURCE bucket here.
+
+In the dropdown, pick `S3`
+
+Under `Bucket`, pick your source bucket. Only pick your SOURCE bucket here.
+
+# Stage 6 - Test and Monitor
+Open a tab to the `CloudQatch logs` console.
+
+Make sure you have two tabs open to the `S3` console. In one tab, open your `-source` bucket & in the other open the `-processed` bucket.
+
+https://github.com/user-attachments/assets/a7a15db8-9bd6-4bc8-b682-3259da68983a
