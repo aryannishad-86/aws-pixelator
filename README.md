@@ -95,4 +95,4 @@ Open a tab to the `CloudQatch logs` console.
 
 Make sure you have two tabs open to the `S3` console. In one tab, open your `-source` bucket & in the other open the `-processed` bucket.
 
-https://github.com/user-attachments/assets/a7a15db8-9bd6-4bc8-b682-3259da68983a
+In the `-source` bucket tab, make sure to select the `Objects` tab and click `Upload`. Add some files and click `Upload`
