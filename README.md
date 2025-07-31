@@ -91,8 +91,11 @@ In the dropdown, pick `S3`
 Under `Bucket`, pick your source bucket. Only pick your SOURCE bucket here.
 
 # Stage 6 - Test and Monitor
-Open a tab to the `CloudQatch logs` console.
+Open a tab to the `CloudWatch logs` console.
+
+https://github.com/user-attachments/assets/e931ff68-d895-44b3-8933-87fb666543d8
 
 Make sure you have two tabs open to the `S3` console. In one tab, open your `-source` bucket & in the other open the `-processed` bucket.
 
 In the `-source` bucket tab, make sure to select the `Objects` tab and click `Upload`. Add some files and click `Upload`
+
